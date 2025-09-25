@@ -22,7 +22,7 @@ This site showcases my projects, skills, and experiences as a **Fresh Graduate i
 ---
 
 ## 🌐 Live Demo
-👉 [Visit My Portfolio](https://username.github.io)  
+👉 [Visit My Portfolio]([https://username.github.io](https://manday93.github.io/amandatech-porto/)  
 *(replace `username` with your GitHub username)*
 
 ---
