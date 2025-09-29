@@ -1,36 +1,33 @@
-# 🌟 Personal Portfolio — Amanda Septi Wulandari
+# 🚀 Amanda Septi Wulandari – Tech Portfolio
 
-Welcome to my personal portfolio website 🚀  
-This site showcases my projects, skills, and experiences as a **Fresh Graduate in Informatics Engineering** with a passion for **AR/VR/MR development, software engineering, and UI/UX design**.
+Halo! Selamat datang di repositori **Amanda Tech Portfolio** 👋  
+Repo ini berisi kode sumber dan dokumentasi untuk portofolio saya yang dapat diakses secara online melalui GitHub Pages.
 
----
+## 🌐 Live Portfolio
+👉 [Lihat Portofolio Saya di Sini](https://manday93.github.io/amandatech-porto/)
 
-## ✨ Highlights
-- 🎮 **AR-AVI** — Augmented Reality training app with 3D speedometer & PWBA models, adopted by ±50 employees at PT Astra Visteon Indonesia.  
-- 🌸 **AR-Flos** — AR learning app for biology education with 95.4% positive feedback from students.  
-- 🕹️ **Relic Shaman** — Unity3D game project developed during Infinite Learning Game Design program.  
-- 🥇 **Kihajar Mobile Apps Competition (2019 & 2020)** — Top Contributor with AR-based cultural apps.  
+## 📌 Tentang
+Portofolio ini dirancang untuk menampilkan:
+- 💻 Proyek & pengalaman saya dalam **Unity Development** dan **AR/VR**  
+- 📱 Aplikasi dan eksperimen dalam bidang **Augmented Reality (AR)**, **Game Development**, serta **Software Engineering**  
+- 📑 Informasi akademik, sertifikat, dan pengalaman magang
 
----
+## 🛠️ Teknologi yang Digunakan
+- HTML5, CSS3, JavaScript  
+- Bootstrap & AOS (Animate On Scroll)  
+- Hosting menggunakan **GitHub Pages**  
 
-## 🛠️ Tech Stack
-- **Languages:** C#, C++, Python, PHP, JavaScript  
-- **Frameworks:** Laravel, Unity3D  
-- **Databases:** SQL Server, MySQL, Oracle  
-- **Tools:** Blender, Figma, Git/GitHub  
+## 📂 Struktur Repo
+- `index.html` → Halaman utama portofolio  
+- `assets/` → File pendukung (gambar, ikon, CSS, JS)  
+- `README.md` → Dokumentasi repositori ini  
 
----
-
-## 🌐 Live Demo
-👉 [Visit My Portfolio]([https://username.github.io](https://manday93.github.io/amandatech-porto/)  
-*(replace `username` with your GitHub username)*
-
----
-
-## 📫 Contact
-- 📧 Email: **amandasepti64@gmail.com**  
-- 💼 LinkedIn: [linkedin.com/in/amandasepti](https://www.linkedin.com/in/amandasepti)  
+## 📬 Kontak
+Jika ingin terhubung lebih lanjut, silakan hubungi saya melalui:  
+- ✉️ Email: [amandasepti64@gmail.com](mailto:amandasepti64@gmail.com)  
+- 🔗 LinkedIn: [Amanda Septi Wulandari](https://www.linkedin.com/)  
+- 🌐 Portfolio: [GitHub Pages](https://manday93.github.io/amandatech-porto/)  
 
 ---
 
-> 💡 “Turning ideas into immersive AR/VR experiences that empower learning and innovation.”
+⭐ Jangan lupa beri star pada repo ini jika menurutmu menarik!  
