@@ -57,7 +57,7 @@
           <li><a class="nav-link" href="#certifications">Certifications</a></li>
           <li><a class="nav-link" href="#portfolio">Portfolio</a></li> 
           <!-- <li><a class="nav-link" href="#contact">Contact</a></li> -->
-          <li><a class="nav-link" href="https://drive.google.com/file/d/1YjmHcgxLjWrKTTLFqNv3Be0cwgD2pI83/view?usp=sharing">CV</a></li>
+          <li><a class="nav-link" href="https://drive.google.com/file/d/1ofdufZKg_auiYAykjvSXGOGvkZiUf8pl/view?usp=sharing">CV</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -861,120 +861,210 @@
 
 
   <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
+<section id="portfolio" class="portfolio">
+  <div class="container">
 
-      <div class="section-title">
-        <h2>Portfolio</h2>
-        <p>My Works</p>
+    <div class="section-title">
+      <h2>Portfolio</h2>
+      <p>My Works</p>
+    </div>
+
+    <style>
+      #portfolio .portfolio-wrap img {
+        width: 100%;
+        height: 220px; /* Tinggi tetap untuk semua gambar */
+        object-fit: contain; /* Gambar tidak gepeng/terpotong */
+        background-color: #000000; /* Background hitam agar elegan */
+        padding: 10px;
+        border-radius: 8px;
+      }
+      /* Tambahan khusus agar tombol panah slider terlihat jelas */
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.8));
+      }
+    </style>
+
+
+    <!-- portofolio -->
+    <div class="row portfolio-container">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-ui">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/MR.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Game Relic Shaman</h4>
+            <p>Game 2D</p>
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/3d mr.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Production Trainer adalah program pelatihan berbasis Mixed Reality dan Virtual Reality di PT Astra Visteon Indonesia yang membantu karyawan baru mempelajari alat produksi melalui interaksi 3D real-time. Aplikasi ini meningkatkan pemahaman hingga 70% lebih cepat dibanding metode pelatihan konvensional."><i class="bx bx-plus"></i></a>
+              <a href=""><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 portfolio-item filter-ui">
+        <div class="portfolio-wrap">
+          
+          <div id="carouselInventory" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselInventory" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#carouselInventory" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#carouselInventory" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/portfolio/login inventory.png" class="d-block w-100" alt="Slide 1">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/portfolio/stok inven.png" class="d-block w-100" alt="Slide 2">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/portfolio/form inven.png" class="d-block w-100" alt="Slide 3">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/portfolio/laporan inven.png" class="d-block w-100" alt="Slide 4">
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselInventory" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselInventory" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="portfolio-info">
+            <h4>Inventory App - Laravel 12</h4>
+            <p>Website</p>
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/login inventory.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Inventory App"><i class="bx bx-plus"></i></a>
+              <a href="LINK_FIGMA_KAMU"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-ui">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/aravi.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>AR-AVI</h4>
+            <p>Augmented Reality</p>
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/aravi.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Smart AR Training & Visualization"><i class="bx bx-plus"></i></a>
+              <a href="https://drive.google.com/file/d/1y0g6mI5VBkV0pM1c-E9r90juM2lFfoBw/view?usp=sharing"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
         </div>
       </div>
-      <style>
-  #portfolio .portfolio-wrap img {
-    width: 100%;
-    height: 220px; /* samakan tinggi semua gambar */
-    object-fit: contain; /* biar gambar tidak ketarik */
-    background-color: #000000; /* kasih background netral */
-    padding: 10px; /* kasih jarak dalam */
-    border-radius: 8px; /* biar rapi */
-  }
-</style>
 
-
-      <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/sikeris.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Sikeris</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/sikeris.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Aplikasi SiKeris"><i class="bx bx-plus"></i></a>
-                <a href="https://drive.google.com/file/d/1Zst-FgF_fmIGcTscqIoB0TUbT68U3L6h/view?usp=sharing" ><i class="bx bx-link"></i></a>
-              </div>
+      <div class="col-lg-4 col-md-6 portfolio-item filter-ui">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/Relic shaman.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Game Relic Shaman</h4>
+            <p>Game 2D</p>
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/Relic shaman.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Game Metroidvania yang mengikuti perjalanan Joko, seorang dukun yang terbully karena tidak memiliki sahabat hantu. Dia memulai misi untuk membalas dendam setelah dibantu oleh Mbah Mijan dengan senjata keris dan tugas mengumpulkan Pusaka Sakti."><i class="bx bx-plus"></i></a>
+              <a href="https://itch.io/jam/infinite-learning-game-batch-6/rate/2707334"><i class="bx bx-link"></i></a>
             </div>
           </div>
         </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/stray.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Stray Kids with Laravel 10</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/stray.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Website Stray Kids with Laravel 10"><i class="bx bx-plus"></i></a>
-                <a href="https://kelompok11.himfahmi.com/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/JSC.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Java Island Culture</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/JSC.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Augmented Reality"><i class="bx bx-plus"></i></a>
-                <a href="https://drive.google.com/drive/folders/1Z_wF0PPAnDc_cGtcmssgTOclFD5s2DGu?usp=drive_link" ><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-ui">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/TA.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Redesain Tomorrow's Affairs</h4>
-              <p>UI/UX</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/TA.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Redesain Aplikasi Tomorrow's Affairs dengan Figma"><i class="bx bx-plus"></i></a>
-                <a href="https://www.figma.com/file/Xo3s0ajib2MwWEpVqg1a8t/IMK-AMANDA-SEPTI-WULANDARI---3IA12?type=design&node-id=37%3A7116&mode=design&t=kVMhP45QHW4mpdBj-1" ><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-ui">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/tti.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Desain Perancangan Website TicketTuneIn</h4>
-              <p>UI/UX</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/tti.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Redesain Aplikasi Tomorrow's Affairs dengan Figma"><i class="bx bx-plus"></i></a>
-                <a href="https://www.figma.com/proto/rtXUCVamiq3lfVkXN6KMLW/web-donasi?type=design&node-id=2-42&t=2zjadrZR49UMqlpU-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A42&mode=design" ><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-ui">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/ar-flos.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>AR-Flos</h4>
-              <p>Augmented Reality</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/ar-flos.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Redesain Aplikasi Tomorrow's Affairs dengan Figma"><i class="bx bx-plus"></i></a>
-                <a href="https://www.figma.com/file/Xo3s0ajib2MwWEpVqg1a8t/IMK-AMANDA-SEPTI-WULANDARI---3IA12?type=design&node-id=37%3A7116&mode=design&t=kVMhP45QHW4mpdBj-1" ><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-ui">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/ar-flos.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>AR-Flos</h4>
+            <p>Augmented Reality</p>
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/ar-flos.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Visualisasi struktur bunga dalam 3D interaktif"><i class="bx bx-plus"></i></a>
+              <a href="https://www.figma.com/file/Xo3s0ajib2MwWEpVqg1a8t/IMK-AMANDA-SEPTI-WULANDARI---3IA12?type=design&node-id=37%3A7116&mode=design&t=kVMhP45QHW4mpdBj-1"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/sikeris.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Sikeris</h4>
+            <p>App</p>
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/sikeris.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Aplikasi SiKeris"><i class="bx bx-plus"></i></a>
+              <a href="https://drive.google.com/file/d/1Zst-FgF_fmIGcTscqIoB0TUbT68U3L6h/view?usp=sharing"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/stray.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Stray Kids with Laravel 10</h4>
+            <p>Web</p>
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/stray.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Website Stray Kids with Laravel 10"><i class="bx bx-plus"></i></a>
+              <a href="https://kelompok11.himfahmi.com/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/JSC.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Java Island Culture</h4>
+            <p>App</p>
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/JSC.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Augmented Reality"><i class="bx bx-plus"></i></a>
+              <a href="https://drive.google.com/drive/folders/1Z_wF0PPAnDc_cGtcmssgTOclFD5s2DGu?usp=drive_link"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-ui">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/TA.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Redesain Tomorrow's Affairs</h4>
+            <p>UI/UX</p>
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/TA.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Redesain Aplikasi Tomorrow's Affairs dengan Figma"><i class="bx bx-plus"></i></a>
+              <a href="https://www.figma.com/file/Xo3s0ajib2MwWEpVqg1a8t/IMK-AMANDA-SEPTI-WULANDARI---3IA12?type=design&node-id=37%3A7116&mode=design&t=kVMhP45QHW4mpdBj-1"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-ui">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/tti.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Desain Website TicketTuneIn</h4>
+            <p>UI/UX</p>
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/tti.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Desain TicketTuneIn"><i class="bx bx-plus"></i></a>
+              <a href="https://www.figma.com/proto/rtXUCVamiq3lfVkXN6KMLW/web-donasi?type=design&node-id=2-42&t=2zjadrZR49UMqlpU-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A42&mode=design"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
 
     </div>
-  </section> 
+  </div>
+</section>
   <!-- End Portfolio Section -->
 
 
